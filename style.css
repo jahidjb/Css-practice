@@ -1,6 +1,10 @@
-h1 {
+body {
+}
+h1,
+h2 {
   font-family: fantasy, sans-serif;
   font-weight: 400;
+  letter-spacing: 0.5rem;
   color: #f8f7ff;
   font-size: 4em;
   height: 70px;
@@ -12,11 +16,11 @@ header {
 }
 
 p {
-  font-family: "Poppins", sans-serif;
   font-size: 2em;
   color: #22223b;
+  text-align: justify;
   font-weight: 600;
-  text-align: left;
+  font-family: Courier, monospace;
 }
 
 #article {
@@ -54,4 +58,24 @@ img {
   border-radius: 50px;
   outline: 2px solid #22223b;
   outline-offset: 0.25rem;
+}
+
+.me {
+  color: #0077b6;
+  font-family: Courier;
+  font-weight: 400;
+  text-decoration: underline #3e83a3;
+  text-transform: none;
+  text-align: left;
+  text-indent: 0%;
+  letter-spacing: -0.01em;
+}
+
+.footer {
+  font-family: monospace;
+  text-align: center;
+}
+
+.contact-h{
+  color: #22223b;
 }
