@@ -76,27 +76,33 @@ img {
 }
 
 .footer {
-  font-family: monospace;
+  font-family: fantasy;
   text-align: left;
+  font-size: 1.8em;
 }
+
+/* This is from the  contact page. */
 
 .contact-h {
   color: #22223b;
 }
 
 a:link {
+  background: #22223b;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-decoration: none;
   align-items: inherit;
-  color: #000000;
+  color: whitesmoke;
   font-size: 1.5em;
-}
-a:hover {
-  background-color: #ddd;
 }
 
 a:visited {
-  color: #22223b;
+  color: #f8f7ff;
+  back
+}
+
+a:hover {
+  background-color: #326177;
 }
 
 i.fa-solid.fa-house {
@@ -105,4 +111,8 @@ i.fa-solid.fa-house {
 
 .fa-brands {
   font-size: 30px;
+}
+
+#clickme{
+  font-size: 1.8em;
 }
