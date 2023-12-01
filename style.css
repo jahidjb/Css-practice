@@ -1,3 +1,7 @@
+body {
+  padding: 5%;
+}
+
 h1,
 h2 {
   font-family: fantasy, sans-serif;
@@ -6,6 +10,7 @@ h2 {
   color: #f8f7ff;
   font-size: 4em;
   height: 70px;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 header {
@@ -38,6 +43,7 @@ img {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
+  padding-top: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -75,5 +81,19 @@ img {
 }
 
 .contact-h {
+  color: #22223b;
+}
+a:link {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: none;
+  align-items: inherit;
+  color: #000000;
+  font-size: 1.3em;
+}
+a:hover {
+  background-color: #ddd;
+}
+
+a:visited {
   color: #22223b;
 }
