@@ -66,7 +66,7 @@ img {
 
 .me {
   color: #0077b6;
-  font-family: Courier;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 400;
   text-decoration: underline #3e83a3;
   text-transform: none;
@@ -87,22 +87,24 @@ img {
   color: #22223b;
 }
 
-a:link {
+a:link,
+a:visited {
   background: #22223b;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-decoration: none;
   align-items: inherit;
   color: whitesmoke;
-  font-size: 1.5em;
+  font-size: 1.3em;
+  padding: 8px 10px;
+  text-align: center;
+  display: inline-block;
+  border: 2px solid black;
 }
 
-a:visited {
-  color: #f8f7ff;
-  back
-}
-
-a:hover {
-  background-color: #326177;
+a:hover,
+a:active {
+  background-color: #e0e0e0;
+  color: black;
 }
 
 i.fa-solid.fa-house {
@@ -113,6 +115,6 @@ i.fa-solid.fa-house {
   font-size: 30px;
 }
 
-#clickme{
+#clickme {
   font-size: 1.8em;
 }
