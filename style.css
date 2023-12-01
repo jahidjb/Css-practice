@@ -83,12 +83,13 @@ img {
 .contact-h {
   color: #22223b;
 }
+
 a:link {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-decoration: none;
   align-items: inherit;
   color: #000000;
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 a:hover {
   background-color: #ddd;
@@ -96,4 +97,12 @@ a:hover {
 
 a:visited {
   color: #22223b;
+}
+
+i.fa-solid.fa-house {
+  font-size: 30px;
+}
+
+.fa-brands {
+  font-size: 30px;
 }
